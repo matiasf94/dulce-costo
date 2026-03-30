@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { Settings as SettingsIcon, Download, Upload, Trash2, AlertTriangle } from 'lucide-react';
-import { formatCLP, IVA } from '../utils/calculations';
+import { Download, Upload, Trash2, AlertTriangle } from 'lucide-react';
+import { IVA } from '../utils/calculations';
 
 export default function Settings({ ingredients, recipes, setIngredients, setRecipes }) {
   const [resetConfirm, setResetConfirm] = useState(false);

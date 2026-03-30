@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Plus, Search, Edit2, Trash2, X, Eye, ChefHat } from 'lucide-react';
 import {
   RECIPE_UNITS, calculateRecipeCost, ingredientLineCost,
-  formatCLP, generateId, IVA
+  formatCLP, generateId
 } from '../utils/calculations';
 
 const emptyRecipe = {
